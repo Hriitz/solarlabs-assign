@@ -13,11 +13,20 @@ localhost:8000/country_info/india localhost:8000/country_info/united_states
 
 Api with India as parameter will scrape the data from the infobar on the right side of
  https://en.wikipedia.org/wiki/India and will return the following data
+ 
+ 
+ 
+ 
 {
+
+
 ‘flag_link’ : ‘https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg’, ‘capital’ : ‘New Delhi’,
 ‘largest_city’: [‘Mumbai’, ‘New Delhi’], ‘official_languages’: [‘Hindi’,’English’], ‘area_total’: 3287263,
 ‘Population’: ‘1,352,642,280’,
- ‘GDP_nominal’: ‘ $3.050 trillion’,
+‘GDP_nominal’: ‘ $3.050 trillion’,
+
+
+
 }
 This should work for all the countries in the world.
 Look out for special cases like https://en.wikipedia.org/wiki/South_Africa which has 3 capitals and only one largest city. In this case return a list with all three in front of ‘capital’ and only a string in front of the ‘largest_city’. Similarly if there is just one official language of a country it should return just a string.
