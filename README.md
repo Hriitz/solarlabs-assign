@@ -20,9 +20,14 @@ Api with India as parameter will scrape the data from the infobar on the right s
 {
 
 
-‘flag_link’ : ‘https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg’, ‘capital’ : ‘New Delhi’,
+‘flag_link’ : ‘https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg’, 
+
+‘capital’ : ‘New Delhi’,
+
 ‘largest_city’: [‘Mumbai’, ‘New Delhi’], ‘official_languages’: [‘Hindi’,’English’], ‘area_total’: 3287263,
+
 ‘Population’: ‘1,352,642,280’,
+
 ‘GDP_nominal’: ‘ $3.050 trillion’,
 
 
