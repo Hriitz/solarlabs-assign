@@ -33,6 +33,8 @@ Api with India as parameter will scrape the data from the infobar on the right s
 
 
 }
+
+
 This should work for all the countries in the world.
 Look out for special cases like https://en.wikipedia.org/wiki/South_Africa which has 3 capitals and only one largest city. In this case return a list with all three in front of ‘capital’ and only a string in front of the ‘largest_city’. Similarly if there is just one official language of a country it should return just a string.
 
